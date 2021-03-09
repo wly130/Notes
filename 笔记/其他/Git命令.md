@@ -25,3 +25,67 @@
 | **git pull origin master** | 从 Github 上下载代码                          |
 | **git branch**             | 查看本地所有的分支                            |
 | **git branch -a**          | 查看远程所有的分支                            |
+
+### 上传代码到 GitHub
+
+- **新建文件夹,初始化**
+
+```shell
+git init
+```
+
+- **提交代码到暂存区**
+
+```shell
+git add .
+```
+
+- **提交到本地库**
+
+```shell
+git commit -m "提交信息"
+```
+
+- **关联远程库**
+
+```shell
+git remote add origin https://github.com/wly130/notes.git
+```
+
+- **上传到 GitHub**
+
+```shell
+git push -u origin master
+```
+
+### 更新 GitHub 上的代码
+
+- **克隆代码**
+
+```shell
+git clone https://github.com/wly130/notes.git
+```
+
+- **提交代码到暂存区**
+
+```shell
+git add .
+```
+
+- **提交到本地库**
+
+```shell
+git commit -m "提交信息"
+```
+
+- **更新到最新版代码**
+
+```shell
+git pull
+```
+
+- **上传到 GitHub**
+
+```shell
+git push origin master
+```
